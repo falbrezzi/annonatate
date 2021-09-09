@@ -1,0 +1,45 @@
+---
+canvas: "https://cdm16003.contentdm.oclc.org/digital/iiif/p15150coll2/10419/canvas/c0"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "testing",
+            "purpose": "commenting",
+            "creator": {
+                "id": "falbrezzi",
+                "name": "falbrezzi"
+            },
+            "created": "2021-09-09T22:29:31.709Z",
+            "modified": "2021-09-09T22:29:34.019Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "person",
+            "purpose": "tagging",
+            "creator": {
+                "id": "falbrezzi",
+                "name": "falbrezzi"
+            },
+            "created": "2021-09-09T22:29:37.218Z",
+            "modified": "2021-09-09T22:29:38.293Z"
+        }
+    ],
+    "target": {
+        "source": "https://cdm16003.contentdm.oclc.org/digital/iiif/p15150coll2/10419/canvas/c0",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:1893.6212158203125,1098.9757080078125,123.76025390625,262.217529296875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://cdm16003.contentdm.oclc.org/iiif/info/p15150coll2/10419/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "{{site.url}}{{site.baseurl}}/annotations/fc569ba5-8be2-49d7-8446-ddf7469ba830.json"
+}
